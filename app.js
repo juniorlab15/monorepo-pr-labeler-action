@@ -50,7 +50,7 @@ async function prMonorepoRepoLabeler() {
     if (repo) {
       console.log(`labeling repo: ${repo}`)
 
-      const repoLabel = `service:${repo}`
+      const repoLabel = `:rocket:deploy:${repo}`
 
       helpers.addLabel(
         octokit,
